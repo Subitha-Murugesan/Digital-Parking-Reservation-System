@@ -52,18 +52,11 @@ App Link: https://parksmart-aef30.web.app/
 1. Install: `npm install`
 2. Run: `npm run dev` and open the URL shown in the terminal (usually `http://localhost:5173`).
 
-Recommended editor setup: VS Code with TypeScript/ESLint/Prettier for best DX.
 
 **Build & Deploy**
 
 - Create a production build: `npm run build` (outputs to `build/`).
 - Serve locally for verification: `npm run preview`.
-- If using Firebase Hosting, the included `firebase.json` is already present. Deploy using the Firebase CLI:
 
-```bash
-npx firebase-tools login
-npx firebase-tools deploy --only hosting
-```
 
-Note: ensure you're in the correct Firebase project or set it with `npx firebase-tools use <project-id>`.
 
