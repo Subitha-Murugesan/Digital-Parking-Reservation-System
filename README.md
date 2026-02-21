@@ -45,7 +45,6 @@ App Link: https://parksmart-aef30.web.app/
   - `components/` — pages and UI components (see `components/Navigation.tsx`, `components/Dashboard.tsx`)
   - `styles/` — global CSS
 - `build/` — production output (generated)
-- `firebase.json` — Firebase hosting configuration
 
 **Development**
 
